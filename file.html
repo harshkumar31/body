@@ -1,0 +1,23 @@
+<html>
+  <head>
+   <!-- Load TensorFlow.js -->
+   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.2"></script>
+   <!-- Load BodyPix -->
+   <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.0"></script>
+   <style src="D:\Study Material\JS\body\file.css"></style>
+ </head>
+
+  <body>
+    <img id='image' src='https://previews.123rf.com/images/kurtvate/kurtvate1911/kurtvate191100048/134969065-a-handsome-young-east-indian-man-standing-in-a-blue-shirt-with-his-arms-wide-open-welcome-everybody-.jpg' crossorigin="anonymous" /> 
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <div id="measure">
+      <h2 id="scale"></h2>
+      <h2 id="armD"></h2>
+      <h2 id="LegD"></h2>
+      <h2 id="ShouldD"></h2>
+    </div>
+    
+  </body>
+  <!-- Place your code in the script tag below. You can also use an external .js file -->
+  <script src="app.js" ></script>
+</html>
